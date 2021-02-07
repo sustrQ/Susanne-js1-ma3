@@ -1,0 +1,15 @@
+.style {
+  background-color: rgb(212, 212, 212);
+  margin-bottom: 1vw;
+}
+
+.style > p {
+  display: inline;
+  font-weight: bold;
+  line-height: 3vw;
+  margin: 2vw;
+}
+
+.style > p:after {
+  content: " ";
+}
